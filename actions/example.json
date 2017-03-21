@@ -1,0 +1,14 @@
+{
+  "GET_WEATHER": {
+    "params": {
+    	"type": "object",
+      "properties": {
+        "cityId": {
+          "type": "string"
+        }
+      },
+      "required": ["cityId"]
+    },
+    "schema": {}
+  }
+}
